@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wisdom-framework:abstract-jdbc-driver:0.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wisdom-framework/abstract-jdbc-driver/0.5/6ced8c954f371a10fbb04a862d9e659924173aea/abstract-jdbc-driver-0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wisdom-framework/abstract-jdbc-driver/0.5/295971b6429e3e737cbcdbf8ff58354d333e6da1/abstract-jdbc-driver-0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
