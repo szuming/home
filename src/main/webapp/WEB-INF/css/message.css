@@ -1,0 +1,15 @@
+.mes-reply{
+    border:1px solid #ddd;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.repImg{
+    float: left;
+}
+
+
+.repContent{
+    text-align: left;
+    margin-left: 70px;
+}

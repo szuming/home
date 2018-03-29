@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.szu.ming.dao.jointownMapper">
+  <resultMap id="BaseResultMap" type="cn.szu.ming.entity.jointown">
+    <id column="jid" jdbcType="INTEGER" property="jid" />
+    <result column="hname" jdbcType="VARCHAR" property="hname" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="jhid" jdbcType="INTEGER" property="jhid" />
+    <result column="juid" jdbcType="INTEGER" property="juid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    jid, hname, username, jhid, juid
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from jointown
+    where jid = #{jid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from jointown
+    where jid = #{jid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.szu.ming.entity.jointown">
+    insert into jointown (jid, hname, username, 
+      jhid, juid)
+    values (#{jid,jdbcType=INTEGER}, #{hname,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, 
+      #{jhid,jdbcType=INTEGER}, #{juid,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.szu.ming.entity.jointown">
+    insert into jointown
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="jid != null">
+        jid,
+      </if>
+      <if test="hname != null">
+        hname,
+      </if>
+      <if test="username != null">
+        username,
+      </if>
+      <if test="jhid != null">
+        jhid,
+      </if>
+      <if test="juid != null">
+        juid,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="jid != null">
+        #{jid,jdbcType=INTEGER},
+      </if>
+      <if test="hname != null">
+        #{hname,jdbcType=VARCHAR},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="jhid != null">
+        #{jhid,jdbcType=INTEGER},
+      </if>
+      <if test="juid != null">
+        #{juid,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.szu.ming.entity.jointown">
+    update jointown
+    <set>
+      <if test="hname != null">
+        hname = #{hname,jdbcType=VARCHAR},
+      </if>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="jhid != null">
+        jhid = #{jhid,jdbcType=INTEGER},
+      </if>
+      <if test="juid != null">
+        juid = #{juid,jdbcType=INTEGER},
+      </if>
+    </set>
+    where jid = #{jid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.szu.ming.entity.jointown">
+    update jointown
+    set hname = #{hname,jdbcType=VARCHAR},
+      username = #{username,jdbcType=VARCHAR},
+      jhid = #{jhid,jdbcType=INTEGER},
+      juid = #{juid,jdbcType=INTEGER}
+    where jid = #{jid,jdbcType=INTEGER}
+  </update>
+</mapper>

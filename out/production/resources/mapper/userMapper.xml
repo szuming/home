@@ -79,16 +79,4 @@
       userphone = #{userphone,jdbcType=VARCHAR}
     where uid = #{uid,jdbcType=INTEGER}
   </update>
-    <resultMap id="result" type="cn.szu.ming.entity.user">
-        <result column="uid" property="uid" />
-        <result column="username" property="username" />
-        <result column="password" property="password" />
-        <result column="userphone" property="userphone" />
-    </resultMap>
-    <select id="selectByUid" parameterType="java.lang.Integer" resultMap="result">
-        select
-        uid,username,password,userphone
-        from USER
-        where uid = #{uid}
-    </select>
 </mapper>

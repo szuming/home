@@ -32,12 +32,12 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
-        <!--生成对应表及类名
-        <table tableName="user" domainObjectName="user" mapperName="userDao" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+        <!--生成对应表及类名-->
+        <table tableName="user" domainObjectName="user" mapperName="userMapper" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
             <property name="my.isgen.usekeys" value="true"/>
             <property name="useActualColumnNames" value="true"/>
             <generatedKey column="id" sqlStatement="JDBC"/>
-        </table>-->
+        </table>
 
         <!--生成对应表及类名-->
         <table tableName="htown" domainObjectName="htown" mapperName="htownMapper" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
@@ -47,7 +47,7 @@
         </table>
 
         <!--生成对应表及类名-->
-        <table tableName="jointown" domainObjectName="jointown" mapperName="jointownDao" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+        <table tableName="jointown" domainObjectName="jointown" mapperName="jointownMapper" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
             <property name="my.isgen.usekeys" value="true"/>
             <property name="useActualColumnNames" value="true"/>
             <generatedKey column="id" sqlStatement="JDBC"/>

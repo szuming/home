@@ -47,7 +47,7 @@
         </table>
 
         <!--生成对应表及类名-->
-        <table tableName="jointown" domainObjectName="jointown" mapperName="jointownDao" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+        <table tableName="jointown" domainObjectName="jointown" mapperName="jointownMapper" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
             <property name="my.isgen.usekeys" value="true"/>
             <property name="useActualColumnNames" value="true"/>
             <generatedKey column="id" sqlStatement="JDBC"/>
