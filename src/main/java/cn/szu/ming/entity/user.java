@@ -1,16 +1,19 @@
 package cn.szu.ming.entity;
 
 public class user {
-    private int uid;
+    private Integer uid;
+
     private String username;
+
     private String password;
+
     private String userphone;
 
-    public int getUid() {
+    public Integer getUid() {
         return uid;
     }
 
-    public void setUid(int uid) {
+    public void setUid(Integer uid) {
         this.uid = uid;
     }
 
@@ -19,7 +22,7 @@ public class user {
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.username = username == null ? null : username.trim();
     }
 
     public String getPassword() {
@@ -27,7 +30,7 @@ public class user {
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        this.password = password == null ? null : password.trim();
     }
 
     public String getUserphone() {
@@ -35,6 +38,6 @@ public class user {
     }
 
     public void setUserphone(String userphone) {
-        this.userphone = userphone;
+        this.userphone = userphone == null ? null : userphone.trim();
     }
 }
