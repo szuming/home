@@ -18,4 +18,5 @@ public class userController {
          model.addAttribute("username",u.getUsername());
          return "welcome";
     }
+
 }

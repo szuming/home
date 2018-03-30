@@ -1,6 +1,8 @@
 package cn.szu.ming.dao;
 
 import cn.szu.ming.entity.user;
+import cn.szu.ming.entity.userExample;
+import java.util.List;
 
 public interface userMapper {
     int deleteByPrimaryKey(Integer uid);
@@ -8,6 +10,8 @@ public interface userMapper {
     int insert(user record);
 
     int insertSelective(user record);
+
+    List<user> selectByExample(userExample example);
 
     user selectByPrimaryKey(Integer uid);
 

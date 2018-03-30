@@ -1,6 +1,8 @@
 package cn.szu.ming.dao;
 
 import cn.szu.ming.entity.jointown;
+import cn.szu.ming.entity.jointownExample;
+import java.util.List;
 
 public interface jointownMapper {
     int deleteByPrimaryKey(Integer jid);
@@ -8,6 +10,8 @@ public interface jointownMapper {
     int insert(jointown record);
 
     int insertSelective(jointown record);
+
+    List<jointown> selectByExample(jointownExample example);
 
     jointown selectByPrimaryKey(Integer jid);
 
