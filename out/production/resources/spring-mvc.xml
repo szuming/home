@@ -17,7 +17,7 @@
     <mvc:annotation-driven />
 
     <!--开通静态资源的访问-->
-    <mvc:default-servlet-handler />
+    <mvc:default-servlet-handler/>
 
     <!-- 视图定位 -->
     <bean

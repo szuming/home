@@ -14,4 +14,18 @@ public class userServiceImpl implements userService {
     public user getUser(int uid) {
         return userDao1.selectByPrimaryKey(uid);
     }
+    public user getUser(String username) {
+        return userDao1.selectByUsername(username);
+    }
+    @Override
+    public user getUser(String username, String password) {
+        return userDao1.selectByPassword(username,password);
+    }
+
+    @Override
+    public void addUser(user user1) {
+        userDao1.insert(user1);
+    }
+
+
 }

@@ -49,8 +49,6 @@
     <orderEntry type="library" name="Gradle: org.apache.felix:org.apache.felix.ipojo.annotations:1.12.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-pool:commons-pool:1.5.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.4.RELEASE" level="project" />
-    <orderEntry type="library" name="jquery" level="application" />
-    <orderEntry type="library" name="bootstrap" level="application" />
-    <orderEntry type="library" name="jquery.form" level="application" />
+    <orderEntry type="library" name="servlet-api" level="project" />
   </component>
 </module>

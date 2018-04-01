@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="blog">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="company"/>
+    <schema id="4" parent="1" name="home"/>
+    <schema id="5" parent="1" name="hometeam"/>
+    <schema id="6" parent="1" name="hometown"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="javaweb"/>
+    <schema id="9" parent="1" name="mysql"/>
+    <schema id="10" parent="1" name="newdb"/>
+    <schema id="11" parent="1" name="performance_schema"/>
+    <schema id="12" parent="1" name="sakila"/>
+    <schema id="13" parent="1" name="springwork"/>
+    <schema id="14" parent="1" name="study"/>
+    <schema id="15" parent="1" name="sys"/>
+    <schema id="16" parent="1" name="test"/>
+    <schema id="17" parent="1" name="world"/>
+    <table id="18" parent="2" name="article"/>
+    <table id="19" parent="2" name="articletype"/>
+    <table id="20" parent="2" name="blogadmin"/>
+    <table id="21" parent="2" name="discuss"/>
+    <table id="22" parent="2" name="link"/>
+    <table id="23" parent="2" name="notice"/>
+    <table id="24" parent="2" name="pic"/>
+    <table id="25" parent="2" name="pictype"/>
+    <table id="26" parent="2" name="visitor"/>
+    <column id="27" parent="18" name="articleId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="18" name="arTypeID">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="18" name="articleName">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="30" parent="18" name="article">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="18" name="articleTime">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="18" name="articleTop">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="18" name="articleCount">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="34" parent="18" name="articleName">
+      <ColNames>articleName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="35" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>articleId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="36" parent="18" name="articleName">
+      <ColNames>articleName</ColNames>
+      <UnderlyingIndexName>articleName</UnderlyingIndexName>
+    </key>
+    <column id="37" parent="19" name="artTypeId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="38" parent="19" name="artTypeName">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="39" parent="19" name="artTypeName">
+      <ColNames>artTypeName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="40" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>artTypeId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="41" parent="19" name="artTypeName">
+      <ColNames>artTypeName</ColNames>
+      <UnderlyingIndexName>artTypeName</UnderlyingIndexName>
+    </key>
+    <column id="42" parent="20" name="adminId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="43" parent="20" name="loginName">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="20" name="loginPwd">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="20" name="adminName">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="46" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>adminId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="47" parent="21" name="discussId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="48" parent="21" name="articleId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="21" name="visitorId">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="21" name="discuss">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="51" parent="21" name="discussR">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="52" parent="21" name="discussTime">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="21" name="discussTimeR">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="54" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>discussId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="55" parent="22" name="linkId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="56" parent="22" name="linkUrl">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="22" name="linkName">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="58" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>linkId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="59" parent="23" name="noticeId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="60" parent="23" name="notice">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="23" name="noticeName">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="62" parent="23" name="noticeTime">
+      <Position>4</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="63" parent="23" name="noticeName">
+      <ColNames>noticeName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>noticeId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="65" parent="23" name="noticeName">
+      <ColNames>noticeName</ColNames>
+      <UnderlyingIndexName>noticeName</UnderlyingIndexName>
+    </key>
+    <column id="66" parent="24" name="picId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="67" parent="24" name="picTypeId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="24" name="picName">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="24" name="picPath">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="24" name="picTime">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="24" name="picDES">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="24" name="picCount">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="73" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>picId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="25" name="picTypeID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="75" parent="25" name="picTypeName">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="76" parent="25" name="picTypeName">
+      <ColNames>picTypeName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="77" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>picTypeID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="78" parent="25" name="picTypeName">
+      <ColNames>picTypeName</ColNames>
+      <UnderlyingIndexName>picTypeName</UnderlyingIndexName>
+    </key>
+    <column id="79" parent="26" name="visitorId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="80" parent="26" name="visitorName">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="26" name="visitorIp">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="26" name="visitorEmail">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="83" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>visitorId</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

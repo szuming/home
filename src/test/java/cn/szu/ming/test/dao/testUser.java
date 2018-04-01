@@ -25,5 +25,18 @@ public class testUser extends BaseTest {
         logger.debug(u.getPassword());
     }
 
+    @Test
+    public void testUsernameCheck(){
+        user u=userMapper1.selectByUsername("ming");
+        logger.info(u.getUsername());
+        logger.debug(u.getPassword());
+    }
+
+    @Test
+    public void testPasswordCheck(){
+        user u=userMapper1.selectByPassword("1","123456");
+        logger.info(u.getUsername());
+        logger.debug(u.getPassword());
+    }
 
 }
