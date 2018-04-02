@@ -9,6 +9,8 @@ public class user {
 
     private String userphone;
 
+    private Integer uhid;
+
     public Integer getUid() {
         return uid;
     }
@@ -39,5 +41,13 @@ public class user {
 
     public void setUserphone(String userphone) {
         this.userphone = userphone == null ? null : userphone.trim();
+    }
+
+    public Integer getUhid() {
+        return uhid;
+    }
+
+    public void setUhid(Integer uhid) {
+        this.uhid = uhid;
     }
 }

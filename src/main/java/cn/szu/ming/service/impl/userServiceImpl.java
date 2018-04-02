@@ -27,5 +27,9 @@ public class userServiceImpl implements userService {
         userDao1.insert(user1);
     }
 
+    @Override
+    public void setUhid(int uhid,int uid) {
+        userDao1.setUhid(uhid,uid);
+    }
 
 }
