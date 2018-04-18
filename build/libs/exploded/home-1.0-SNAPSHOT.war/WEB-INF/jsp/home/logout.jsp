@@ -23,8 +23,15 @@
         return;
     }
     session.invalidate();
-    response.sendRedirect("home.jsp");
 %>
+
+<script>
+    var message="${msg}";
+    if(message!=""){
+        alert(message)
+    }
+    setTimeout("javascript:location.href='home'", 1000);
+</script>
 </body>
 </html>
 </body>

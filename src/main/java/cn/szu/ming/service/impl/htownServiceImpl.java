@@ -29,6 +29,22 @@ public class htownServiceImpl implements htownService {
     public htown getTown(String hname) {
         return htownMapper1.selectByHname(hname);
     }
+
+    @Override
+    public htown getTown(int hid) {
+        return htownMapper1.selectByHid(hid);
+    }
+
+    @Override
+    public htown getTownByUid(int uid) {
+        return htownMapper1.selectByUid(uid);
+    }
+
+    @Override
+    public void updateHtown(htown htown1) {
+        htownMapper1.updateHtown(htown1);
+    }
+
     @Override
     public void addTown(htown htown1) {
         htownMapper1.insert(htown1);

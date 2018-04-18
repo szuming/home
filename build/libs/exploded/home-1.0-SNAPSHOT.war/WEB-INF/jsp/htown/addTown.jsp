@@ -29,7 +29,7 @@
 <%@ include file="../home/header.jsp" %>
 <div class="container">
     <h1 style="text-align: center">创立同乡会</h1>
-    <form class="from-inline" action="htown/addTown" method="post">
+    <form class="from-inline" action="addTown" method="post">
         <div class="form-group">
             <label for="hname">同乡会名称:</label>
             <input type="text" class="form-control" id="hname"  name="hname" placeholder="hname">

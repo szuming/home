@@ -28,25 +28,24 @@
 
 <div id="htown-body">
     <%@ include file="header.jsp" %>
-    <c:forEach var="h" items="${hl}">
         <div id="htowns-body" class="container">
             <div class="container">
                 <div class="row">
+                    <c:forEach var="h" items="${hl}">
                     <div class="col-md-3 htown-box">
                         <div class="thumbnail">
                             <img src="../../../statics/img/szu.jpg" alt="..." class="htown-home-img">
                             <div class="caption">
                                 <h2>${h.hname}</h2>
                                 <p>乡会人数：${h.hnum}</p>
-                                <p><a href="checkHtown.jsp?hid="  class="btn btn-default" role="button">查看信息</a> <a href="../../joinTown?hid=&hname=" class="btn btn-primary" role="button">申请加入</a></p>
+                                <p><a href="/checkTown?hid=${h.hid}"  class="btn btn-default" role="button">查看信息</a> <a href="joinTown?hid=${h.hid}&hname=${h.hname}" class="btn btn-primary" role="button">申请加入</a></p>
                             </div>
                         </div>
                     </div>
-
+                    </c:forEach>
                 </div>
             </div>
         </div>
-    </c:forEach>
 </div>
 
 

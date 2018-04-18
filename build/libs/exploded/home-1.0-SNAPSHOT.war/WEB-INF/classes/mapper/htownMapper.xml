@@ -82,7 +82,12 @@
 
 
 
-
+  <select id="selectByHid" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from htown
+    where hid = #{hid,jdbcType=INTEGER}
+  </select>
   <select id="selectByHname" parameterType="java.lang.String" resultMap="BaseResultMap">
     select
     <include refid="Base_Column_List" />
@@ -94,5 +99,30 @@
     <include refid="Base_Column_List" />
     from htown
   </select>
+  <select id="selectByUid" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from htown
+    where hid=(
+    SELECT uhid
+    FROM USER
+    where uid = #{uid,jdbcType=INTEGER}
+    )
+  </select>
+  <update id="updateHtown" parameterType="cn.szu.ming.entity.htown">
+    update htown
+    <set>
+      <if test="hname != null">
+        hname = #{hname,jdbcType=VARCHAR},
+      </if>
+      <if test="hintro != null">
+        hintro = #{hintro,jdbcType=VARCHAR},
+      </if>
+      <if test="hnum != null">
+        hnum = #{hnum,jdbcType=INTEGER},
+      </if>
+    </set>
+    where hid = #{hid,jdbcType=INTEGER}
+  </update>
 
 </mapper>

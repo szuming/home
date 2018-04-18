@@ -1,5 +1,6 @@
 package cn.szu.ming.entity;
 
+
 public class jointown {
     private Integer jid;
 
@@ -10,6 +11,16 @@ public class jointown {
     private Integer jhid;
 
     private Integer juid;
+
+    public jointown(){}
+
+
+    public jointown(String hname, String username, Integer jhid, Integer juid) {
+        this.hname = hname;
+        this.username = username;
+        this.jhid = jhid;
+        this.juid = juid;
+    }
 
     public Integer getJid() {
         return jid;

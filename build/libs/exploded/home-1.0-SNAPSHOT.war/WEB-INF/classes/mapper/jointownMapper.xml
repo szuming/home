@@ -90,4 +90,17 @@
       juid = #{juid,jdbcType=INTEGER}
     where jid = #{jid,jdbcType=INTEGER}
   </update>
+
+  <!--diy-->
+  <select id="getApplyers" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from jointown
+    where jhid=#{hid,jdbcType=INTEGER}
+  </select>
+  <delete id="del" parameterType="java.lang.Integer">
+    delete from jointown
+    where jid = #{jid,jdbcType=INTEGER}
+  </delete>
+
 </mapper>

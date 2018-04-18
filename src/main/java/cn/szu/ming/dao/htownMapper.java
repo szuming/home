@@ -19,5 +19,9 @@ public interface htownMapper {
 
     List<htown> selectAllTowns();
 
+    //---diy-----
     htown selectByHname(String hname);
+    htown selectByHid(int hid);
+    htown selectByUid(int uhid);
+    void updateHtown(htown htown1);
 }

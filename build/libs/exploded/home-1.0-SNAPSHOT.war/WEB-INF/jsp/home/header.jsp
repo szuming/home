@@ -53,9 +53,9 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">我的同乡会 <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="myTown.jsp">进入同乡会</a></li>
-                            <li><a href="manTown.jsp">管理同乡会</a></li>
-                            <li><a href="toAddTown">创建同乡会</a></li>
+                            <li><a href="myTown">进入同乡会</a></li>
+                            <li><a href="manTown">管理同乡会</a></li>
+                            <li><a href="addTown">创建同乡会</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -71,11 +71,11 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="header-name"> 123  <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="toLog">登陆</a></li>
-                            <li><a href="toReg">注册</a></li>
+                            <li><a href="log">登陆</a></li>
+                            <li><a href="reg">注册</a></li>
                             <li><a href="userinfo.jsp">个人信息</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="toLogout">注销登陆</a></li>
+                            <li><a href="logout">注销登陆</a></li>
                         </ul>
                     </li>
                 </ul>

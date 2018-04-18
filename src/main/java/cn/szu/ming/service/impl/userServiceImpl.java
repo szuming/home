@@ -6,6 +6,8 @@ import cn.szu.ming.service.userService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class userServiceImpl implements userService {
     @Autowired
@@ -23,13 +25,28 @@ public class userServiceImpl implements userService {
     }
 
     @Override
+    public List<user> getUsers(int hid) {
+        return userDao1.getUsers(hid);
+    }
+
+    @Override
+    public List<user> getManUsers(int hid) {
+        return userDao1.getManUsers(hid);
+    }
+
+    @Override
     public void addUser(user user1) {
         userDao1.insert(user1);
     }
 
     @Override
-    public void setUhid(int uhid,int uid) {
-        userDao1.setUhid(uhid,uid);
+    public void setUhidAndType(int uhid,int uid,int type) {
+        userDao1.setUhidAndType(uhid,uid,type);
+    }
+
+    @Override
+    public void updateTypeById(int uid) {
+        userDao1.updateTypeById(uid);
     }
 
 }

@@ -7,9 +7,10 @@
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="userphone" jdbcType="VARCHAR" property="userphone" />
     <result column="uhid" jdbcType="INTEGER" property="uhid" />
+    <result column="type" jdbcType="INTEGER" property="type" />
   </resultMap>
   <sql id="Base_Column_List">
-    uid, username, password, userphone, uhid
+    uid, username, password, userphone, uhid,type
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
@@ -23,9 +24,9 @@
   </delete>
   <insert id="insert" parameterType="cn.szu.ming.entity.user">
     insert into user (uid, username, password, 
-      userphone, uhid)
+      userphone, uhid,type)
     values (#{uid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
-      #{userphone,jdbcType=VARCHAR}, #{uhid,jdbcType=INTEGER})
+      #{userphone,jdbcType=VARCHAR}, #{uhid,jdbcType=INTEGER}, #{type,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="cn.szu.ming.entity.user">
     insert into user
@@ -44,6 +45,9 @@
       </if>
       <if test="uhid != null">
         uhid,
+      </if>
+      <if test="type != null">
+        type,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
@@ -108,10 +112,30 @@
     AND password=#{password,jdbcType=VARCHAR}
   </select>
 
-  <update id="setUhid">
+  <update id="setUhidAndType">
     update user
     set
-    uhid = #{uhid,jdbcType=INTEGER}
+    uhid = #{uhid,jdbcType=INTEGER},
+    type=#{type,jdbcType=INTEGER}
     where uid = #{uid,jdbcType=INTEGER}
+  </update>
+  <select id="getUsers" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from user
+    where uhid=#{hid,jdbcType=INTEGER}
+  </select>
+  <select id="getManUsers" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from user
+    where uhid=#{hid,jdbcType=INTEGER}
+    AND (type=1 OR TYPE =2)
+  </select>
+  <update id="updateTypeById">
+    UPDATE USER
+    SET
+    type=1
+    where uid=#{uid,jdbcType=INTEGER}
   </update>
 </mapper>

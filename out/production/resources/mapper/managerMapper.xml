@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.szu.ming.dao.managerMapper">
+    <resultMap id="BaseResultMap" type="cn.szu.ming.entity.manager">
+        <id column="mid" jdbcType="INTEGER" property="hid" />
+        <result column="uid" jdbcType="INTEGER" property="uid" />
+        <result column="hid" jdbcType="INTEGER" property="hid" />
+    </resultMap>
+    <insert id="insert" parameterType="cn.szu.ming.entity.manager">
+        insert into manager (mid, uid, hid)
+        values (#{mid,jdbcType=INTEGER}, #{uid,jdbcType=INTEGER}, #{hid,jdbcType=INTEGER})
+    </insert>
+</mapper>

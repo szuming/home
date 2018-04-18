@@ -7,97 +7,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27973aea-0745-41e3-bd60-78fc3603fbc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/pageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/logout.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/addTown.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/myTown.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/htownBase.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/service/htownService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/testMvcController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/htownExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/htownExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/htownExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/htownExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/jointownExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/jointownExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/jointownExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/jointownExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/userExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/userExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/userExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/userExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/statics/css/checkHtown.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/testMvcController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/htownExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/htownExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/htownExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/htownExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/jointownExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/jointownExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/jointownExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/jointownExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/userExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/userExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/userExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/userExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/testMvcController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/htownMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/jointownMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/userMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/htownExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/jointownExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/userExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/mapper/htownMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/mapper/jointownMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/statics/css/checkHtown.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/homeController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/homeController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/jointownController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/managerMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/manTown.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/jointownService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/checkTown.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/manager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/managerServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/managerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/dao/testManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/managerMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/jointownServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/msg.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/homeController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/pageController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/homeController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/pageController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/homeController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/pageController.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/home-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/build/libs/home-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/htownService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/htownService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/htownController.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/htownController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/userMapper.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/userMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/htown/myTown.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/htown/myTown.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/home/header.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/home/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/userService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/userService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/mapper/jointownMapper.xml" afterPath="$PROJECT_DIR$/out/production/resources/mapper/jointownMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/myTown.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/myTown.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/userMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/userMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/logout.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/logout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/addTown.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/addTown.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/jointown.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/jointown.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/htown/addTown.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/htown/addTown.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/jointown.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/jointown.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/userMapper.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/userMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/htownController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/htownController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/userController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/userController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/dao/htownMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/dao/htownMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/dao/jointownMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/dao/jointownMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/userService.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/userService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/userService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/userService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/jointown.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/jointown.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/jointownMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/jointownMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/impl/userServiceImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/impl/userServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/htownMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/htownMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/htownService.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/htownService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/dao/userMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/dao/userMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/dao/htownMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/dao/htownMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/user.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/user.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/home/logout.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/home/logout.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/home/home.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/home/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/htownMapper.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/htownMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/userController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/userController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/userServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/userServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/userController.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/userController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/jointownMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/jointownMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/user.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/user.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/htownController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/htownController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/mapper/userMapper.xml" afterPath="$PROJECT_DIR$/out/production/resources/mapper/userMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/impl/userServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/impl/userServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/jointownMapper.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/jointownMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/userController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/controller/userController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/mapper/htownMapper.xml" afterPath="$PROJECT_DIR$/out/production/resources/mapper/htownMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/htownMapper.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/htownMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/jointownMapper.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/jointownMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/htownServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/htownServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/user.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/entity/user.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/htownService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/htownService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/impl/htownServiceImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/impl/htownServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/impl/userServiceImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/impl/userServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/userService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/service/userService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/home-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/build/libs/home-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/homeController.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/homeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/htownController.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/htownController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/userController.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/controller/userController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/htownMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/htownMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/jointownMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/jointownMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/userMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/dao/userMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/user.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/entity/user.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/htownService.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/htownService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/impl/htownServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/impl/htownServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/impl/userServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/impl/userServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/userService.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/userService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/cn/szu/ming/test/dao/testHtown.class" afterPath="$PROJECT_DIR$/out/test/classes/cn/szu/ming/test/dao/testHtown.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/htownMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/htownMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/htownMapper.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/htownMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/jointownMapper.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/jointownMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/userMapper.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/mapper/userMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/home/header.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/home/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/home/home.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/jsp/home/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/out/production/resources/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/mapper/htownMapper.xml" afterPath="$PROJECT_DIR$/out/production/resources/mapper/htownMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/mapper/jointownMapper.xml" afterPath="$PROJECT_DIR$/out/production/resources/mapper/jointownMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/mapper/userMapper.xml" afterPath="$PROJECT_DIR$/out/production/resources/mapper/userMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/homeController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/homeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/htownController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/htownController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/userController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/userController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/user.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/user.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/htownService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/htownService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/htownServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/htownServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/userServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/userServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/userService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/userService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/dao/testHtown.java" afterPath="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/dao/testHtown.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/dao/jointownMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/cn/szu/ming/dao/jointownMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/impl/htownServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/cn/szu/ming/service/impl/htownServiceImpl.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -127,43 +109,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="htownController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="manTown.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/manTown.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2990">
+              <caret line="130" column="11" lean-forward="false" selection-start-line="130" selection-start-column="11" selection-end-line="130" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="htownController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/htownController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="44" column="55" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/homeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/userController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="htownService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cn/szu/ming/test/service/htownService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="78" />
+            <state relative-caret-position="3979">
+              <caret line="193" column="5" lean-forward="false" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="htownServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/htownServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding>
+                <element signature="e#1089#1090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/userMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1081">
+              <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2760">
+              <caret line="120" column="11" lean-forward="false" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+              <folding>
+                <marker date="1523771395023" expanded="true" signature="866:968" ph="select from user" />
+                <marker date="1523771395023" expanded="true" signature="1054:1110" ph="delete from " />
+                <marker date="1523771395023" expanded="true" signature="1190:1448" ph="insert into user... " />
+                <marker date="1523771395023" expanded="true" signature="2569:3016" ph="update user " />
+                <marker date="1523771395023" expanded="true" signature="3108:3342" ph="update user " />
+                <marker date="1523771395023" expanded="true" signature="3466:3577" ph="select from user" />
+                <marker date="1523771395023" expanded="true" signature="3654:3811" ph="select from user" />
+                <marker date="1523771395023" expanded="true" signature="3860:3990" ph="update user " />
+                <marker date="1523771395023" expanded="true" signature="4092:4192" ph="select from user" />
+                <marker date="1523771395023" expanded="true" signature="4297:4412" ph="select from user" />
+                <marker date="1523771395023" expanded="true" signature="4297:4425" ph="select from user" />
+                <marker date="1523771395023" expanded="true" signature="4473:4541" ph="UPDATE USER " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/userService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/userServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,10 +205,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="CSS File" />
+        <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -186,6 +216,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>BaseResultMap</find>
+      <find>log</find>
+      <find>managerService1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -487,25 +519,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/userDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/user.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/util/MBG.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/testUser.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/testMvcController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/ssmTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/test/userController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/jointownMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/suc.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/regController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/statics/css/reglog.css" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/userinfo.jsp" />
@@ -515,29 +528,48 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/regInfo.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/statics/js/header.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/log.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/myTown.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/logout.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/htownService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/homeController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/htownMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/htownMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/jointownMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/userServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/htownServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/statics/css/htownBase.css" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/pageController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/addTown.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/header.jsp" />
         <option value="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/dao/testUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/dao/testHtown.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/service/htownService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/pageController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/managerMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/dao/testManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/managerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/managerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/managerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/user.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/addTown.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/joinTown.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/joinTownService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/jointown.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/myTown.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/adminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/jointownController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/msg.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/logout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/userController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/checkTown.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/htownMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/htownMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/htownService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/htownServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/jointownMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/jointownService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/jointownServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/jointownMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/userMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/userService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/szu/ming/test/service/htownService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/userMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/userServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/manTown.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/htownController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/userController.java" />
       </list>
     </option>
   </component>
@@ -585,8 +617,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -645,7 +675,26 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ming" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ming" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ming" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="home" type="b2602c69:ProjectViewProjectNode" />
@@ -666,40 +715,45 @@
               <item name="home" type="b2602c69:ProjectViewProjectNode" />
               <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="home" type="b2602c69:ProjectViewProjectNode" />
               <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="home" type="b2602c69:ProjectViewProjectNode" />
               <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="home" type="b2602c69:ProjectViewProjectNode" />
               <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="home" type="b2602c69:ProjectViewProjectNode" />
               <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="htown" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="home" type="b2602c69:ProjectViewProjectNode" />
@@ -709,6 +763,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -726,16 +782,16 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\j2ee\spring\home\src\main\webapp\WEB-INF\jsp" />
-      <recent name="E:\j2ee\spring\home\src\main\webapp\WEB-INF" />
-      <recent name="E:\j2ee\spring\home\src\test\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\j2ee\spring\home\src\main\webapp\WEB-INF\jsp\home" />
       <recent name="E:\j2ee\spring\home\src\main\webapp\statics" />
       <recent name="E:\j2ee\spring\home\src\main\webapp" />
       <recent name="E:\j2ee\spring\home\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\j2ee\spring\home\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\j2ee\spring\home\src\main\webapp\WEB-INF" />
+      <recent name="E:\j2ee\spring\home\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1033,11 +1089,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.htownService.testAddTown" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.testUser.testPasswordCheck" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.testUser" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.testHtown" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MBG" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MBG" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.htownService.testAddTown" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.testUser.testPasswordCheck" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.testUser" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.testHtown" />
       </list>
     </recent_temporary>
   </component>
@@ -1065,7 +1121,17 @@
       <workItem from="1522540102256" duration="2616000" />
       <workItem from="1522543551174" duration="21208000" />
       <workItem from="1522585369483" duration="5208000" />
-      <workItem from="1522624784404" duration="604000" />
+      <workItem from="1522624784404" duration="3565000" />
+      <workItem from="1522635390821" duration="9197000" />
+      <workItem from="1522710886662" duration="5522000" />
+      <workItem from="1522719159122" duration="2080000" />
+      <workItem from="1522721282987" duration="7851000" />
+      <workItem from="1522741755677" duration="1885000" />
+      <workItem from="1523662888277" duration="8005000" />
+      <workItem from="1523718948554" duration="232000" />
+      <workItem from="1523751035731" duration="7704000" />
+      <workItem from="1523863670693" duration="357000" />
+      <workItem from="1524051180989" duration="2000" />
     </task>
     <servers />
   </component>
@@ -1102,43 +1168,43 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69298000" />
+    <option name="totallyTimeSpent" value="115094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55603915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15016322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42763874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15245202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.114605546" sideWeight="0.8184783" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.114605546" sideWeight="0.18152174" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28182808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14907508" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1155,100 +1221,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/userExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/htown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/img/szu.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/regController.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9c2c92c7-3dbb-47bc-b51f-6c484fd5498d/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/reglog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/img/4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/suc.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/fail.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/regSuc.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/regFail.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/reglog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-846">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/header.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/regInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/log.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="34" column="94" lean-forward="false" selection-start-line="34" selection-start-column="94" selection-end-line="34" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/reg.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,129 +1235,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/testMvcController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/logout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/myTown.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="35" column="197" lean-forward="false" selection-start-line="35" selection-start-column="197" selection-end-line="35" selection-end-column="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/util/MBG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/jointownMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2093">
-          <caret line="91" column="11" lean-forward="false" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/user.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/htownServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/checkHtown.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/htownBase.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="57" column="48" lean-forward="false" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/pageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/addTown.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/userServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/userService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/htownService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1392,79 +1251,316 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/szu/ming/test/service/htownService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/pageController.java" />
+    <entry file="file://$PROJECT_DIR$/hs_err_pid22848.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/util/MBG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="37" column="54" lean-forward="false" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/htown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/szu/ming/test/dao/testUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="87">
           <caret line="14" column="78" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="14" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/htownMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="95" column="11" lean-forward="true" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="112" column="7" lean-forward="true" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/htownMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/jointownMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/userMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/szu/ming/test/service/htownService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/htownController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="44" column="55" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/homeController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/szu/ming/test/dao/testManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/managerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/managerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/managerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/log.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="92" lean-forward="false" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.4.RELEASE/addcf1caa22613c474bd6dde8c7134fef940b1f0/spring-webmvc-5.0.4.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/homeController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/joinTown.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/jointown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/myTown.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/reg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/adminController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/msg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/userController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="484">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/addTown.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/checkTown.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/managerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/htownService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/htownMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="119" column="11" lean-forward="true" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/jointownController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/htownMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/jointownService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/jointownServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/jointownMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="100" column="17" lean-forward="false" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/jointownMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/entity/user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/userServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/userService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="120" column="11" lean-forward="false" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+          <folding>
+            <marker date="1523771395023" expanded="true" signature="866:968" ph="select from user" />
+            <marker date="1523771395023" expanded="true" signature="1054:1110" ph="delete from " />
+            <marker date="1523771395023" expanded="true" signature="1190:1448" ph="insert into user... " />
+            <marker date="1523771395023" expanded="true" signature="2569:3016" ph="update user " />
+            <marker date="1523771395023" expanded="true" signature="3108:3342" ph="update user " />
+            <marker date="1523771395023" expanded="true" signature="3466:3577" ph="select from user" />
+            <marker date="1523771395023" expanded="true" signature="3654:3811" ph="select from user" />
+            <marker date="1523771395023" expanded="true" signature="3860:3990" ph="update user " />
+            <marker date="1523771395023" expanded="true" signature="4092:4192" ph="select from user" />
+            <marker date="1523771395023" expanded="true" signature="4297:4412" ph="select from user" />
+            <marker date="1523771395023" expanded="true" signature="4297:4425" ph="select from user" />
+            <marker date="1523771395023" expanded="true" signature="4473:4541" ph="UPDATE USER " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/dao/userMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/service/impl/htownServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/htown/manTown.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2990">
+          <caret line="130" column="11" lean-forward="false" selection-start-line="130" selection-start-column="11" selection-end-line="130" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/htownController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3979">
+          <caret line="193" column="5" lean-forward="false" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

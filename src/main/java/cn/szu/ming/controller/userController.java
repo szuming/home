@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -22,36 +23,54 @@ public class userController {
          return "welcome";
     }
 
-
     //注册账号
-    @RequestMapping("reg")
+    @RequestMapping(value = "reg",method = RequestMethod.GET)
+    public String toReg(){
+        return "home/reg";
+    }
+    @RequestMapping(value = "reg",method = RequestMethod.POST)
     public String reg(Model model, user user1,HttpServletRequest request){
         if(userService1.getUser(user1.getUsername())!=null){
-            model.addAttribute("message","fail");
+            model.addAttribute("msg","fail");
         }else{
             userService1.addUser(user1);
+            user1=userService1.getUser(user1.getUsername(),user1.getPassword());
             HttpSession session=request.getSession();
             session.setAttribute("user",user1);
             model.addAttribute("username",user1.getUsername());
-            model.addAttribute("message","suc");
+            model.addAttribute("msg","suc");
         }
-        return "home/regInfo";
+        return "redirect:home";
     }
 
 
     //登陆
-    @RequestMapping("log")
+    @RequestMapping(value = "log",method = RequestMethod.GET)
+    public  String toLog(){return "home/log";}
+    @RequestMapping(value = "log",method = RequestMethod.POST)
     public String log(Model model,user user1,HttpServletRequest request){
         user1=userService1.getUser(user1.getUsername(),user1.getPassword());
         if(user1!=null){
             HttpSession session=request.getSession();
             session.setAttribute("user",user1);
             model.addAttribute("username",user1.getUsername());
-            return "home/home";
+            return "redirect:home";
         }else{
             model.addAttribute("message","fail");
             return "home/log";
         }
+    }
+
+    //注销
+    @RequestMapping(value = "logout",method = RequestMethod.GET)
+    public String toLogout(Model model,HttpServletRequest request){
+        HttpSession session=request.getSession();
+        //从在线名单中消除
+        String username=(String)session.getAttribute("username");
+
+        session.invalidate();       //销毁对话
+        model.addAttribute("msg","成功注销");
+        return "admin/msg";
     }
 
 }
