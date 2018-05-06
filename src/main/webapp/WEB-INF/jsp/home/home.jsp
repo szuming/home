@@ -46,6 +46,24 @@
                 </div>
             </div>
         </div>
+
+    <nav aria-label="Page navigation" style="text-align: center">
+        <ul class="pagination">
+            <li>
+                <a href="/home?pageNum=${pageNum-11}" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <c:forEach var="i" begin="1" end="${pages}" step="1">
+                <li><a href="/home?pageNum=${i}">${i}</a></li>
+            </c:forEach>
+            <li>
+                <a href="/home?pageNum=${pageNum+1}" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </div>
 
 

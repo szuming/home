@@ -5,7 +5,7 @@ import cn.szu.ming.entity.htown;
 import java.util.List;
 
 public interface htownService {
-    public List<htown> getHtowns();
+    public List<htown> getHtowns(int pageNum,int pageSize);
 
     //新增同乡会
     public void addTown(htown htown1);
