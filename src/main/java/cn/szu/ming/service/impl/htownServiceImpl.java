@@ -3,6 +3,8 @@ package cn.szu.ming.service.impl;
 import cn.szu.ming.dao.htownMapper;
 import cn.szu.ming.entity.htown;
 import cn.szu.ming.service.htownService;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,8 +21,9 @@ public class htownServiceImpl implements htownService {
     htownMapper htownMapper1;
 
     @Override
-    public List<htown> getHtowns() {
+    public List<htown> getHtowns(int pageNum,int pageSize) {
         List<htown> list;
+        PageHelper.startPage(pageNum,pageSize);
         list=htownMapper1.selectAllTowns();
         return list;
     }
