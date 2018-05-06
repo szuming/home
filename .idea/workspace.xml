@@ -7,16 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27973aea-0745-41e3-bd60-78fc3603fbc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/util/MyPropertyPlaceholderConfigurer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/home-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/build/libs/home-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___cn_szu_ming___home_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___cn_szu_ming___home_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/spring-mybatis.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/home-1.0-SNAPSHOT.war/WEB-INF/classes/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/jdbc.properties" afterPath="$PROJECT_DIR$/out/production/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/spring-mybatis.xml" afterPath="$PROJECT_DIR$/out/production/resources/spring-mybatis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/szu/ming/util/MyPropertyPlaceholderConfigurer.java" afterPath="$PROJECT_DIR$/src/main/java/cn/szu/ming/util/MyPropertyPlaceholderConfigurer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
     </list>
@@ -51,8 +42,8 @@
       <file leaf-file-name="MyPropertyPlaceholderConfigurer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/util/MyPropertyPlaceholderConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="276">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,12 +51,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1113">
-              <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="258">
+              <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <element signature="e#1030#1041#0" expanded="true" />
+                <element signature="e#1080#1088#0" expanded="true" />
+                <element signature="e#1132#1145#0" expanded="true" />
+                <element signature="e#1189#1202#0" expanded="true" />
+                <element signature="e#1785#1796#0" expanded="true" />
+                <element signature="e#1835#1843#0" expanded="true" />
+                <element signature="e#1887#1900#0" expanded="true" />
+                <element signature="e#1944#1957#0" expanded="true" />
+                <element signature="e#2029#2045#0" expanded="true" />
+                <element signature="e#2114#2128#0" expanded="true" />
+                <element signature="e#2195#2207#0" expanded="true" />
+                <element signature="e#2274#2286#0" expanded="true" />
+                <element signature="e#2356#2368#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -439,8 +454,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/controller/htownController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/util/MyPropertyPlaceholderConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/szu/ming/util/MyPropertyPlaceholderConfigurer.java" />
       </list>
     </option>
   </component>
@@ -465,9 +480,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="706" />
+    <option name="y" value="114" />
+    <option name="width" value="968" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -504,30 +520,6 @@
               <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="home" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ming" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="home" type="b2602c69:ProjectViewProjectNode" />
@@ -926,7 +918,7 @@
       <workItem from="1525440241172" duration="4597000" />
       <workItem from="1525475834397" duration="3197000" />
       <workItem from="1525512971706" duration="50000" />
-      <workItem from="1525564983946" duration="4692000" />
+      <workItem from="1525564983946" duration="6778000" />
     </task>
     <servers />
   </component>
@@ -963,7 +955,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143808000" />
+    <option name="totallyTimeSpent" value="145894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1327,7 +1319,7 @@
         <state relative-caret-position="23">
           <caret line="38" column="166" lean-forward="false" selection-start-line="38" selection-start-column="166" selection-end-line="38" selection-end-column="166" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1348,26 +1340,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="258">
+          <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#1030#1041#0" expanded="true" />
+            <element signature="e#1080#1088#0" expanded="true" />
+            <element signature="e#1132#1145#0" expanded="true" />
+            <element signature="e#1189#1202#0" expanded="true" />
+            <element signature="e#1785#1796#0" expanded="true" />
+            <element signature="e#1835#1843#0" expanded="true" />
+            <element signature="e#1887#1900#0" expanded="true" />
+            <element signature="e#1944#1957#0" expanded="true" />
+            <element signature="e#2029#2045#0" expanded="true" />
+            <element signature="e#2114#2128#0" expanded="true" />
+            <element signature="e#2195#2207#0" expanded="true" />
+            <element signature="e#2274#2286#0" expanded="true" />
+            <element signature="e#2356#2368#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113">
-          <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+        <state relative-caret-position="69">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/szu/ming/util/MyPropertyPlaceholderConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="276">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

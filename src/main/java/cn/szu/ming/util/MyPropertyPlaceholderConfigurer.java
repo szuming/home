@@ -22,7 +22,5 @@ public class MyPropertyPlaceholderConfigurer extends PropertyPlaceholderConfigur
         }
         return super.convertProperty(propertyValue,propertyValue);
     }
-
-
 }
 
