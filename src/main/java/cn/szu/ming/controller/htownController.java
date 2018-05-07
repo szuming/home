@@ -3,6 +3,7 @@ package cn.szu.ming.controller;
 import cn.szu.ming.entity.htown;
 import cn.szu.ming.entity.jointown;
 import cn.szu.ming.entity.user;
+import cn.szu.ming.service.fileService;
 import cn.szu.ming.service.htownService;
 import cn.szu.ming.service.jointownService;
 import cn.szu.ming.service.userService;
@@ -31,7 +32,8 @@ public class htownController {
     userService userService1;
     @Autowired
     jointownService jointownService1;
-
+    @Autowired
+    fileService fileService1;
 
 
     //获取所有同乡会
@@ -153,6 +155,11 @@ public class htownController {
         //展示所有申请者
         List<jointown> applyers=jointownService1.getApplyers(htown1.getHid());
         view.addObject("applyers",applyers);
+
+        //是否有同乡会照片，有则显示，无则显示szu.jpg
+        String imgName="szu.jpg";
+        if(fileService1.checkImg(htown1.getHname()))imgName=htown1.getHname();
+        view.addObject("imgName",imgName);
 
         view.setViewName("htown/manTown");
         return view;

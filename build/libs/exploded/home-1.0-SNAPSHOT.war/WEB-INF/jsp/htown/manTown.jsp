@@ -55,12 +55,11 @@
     </form>
     <form class="from-inline" action="manTownImg" method="post" enctype="multipart/form-data">
         <div class="form-group">
-            <label for="himg">同乡会图片</label>
+            <img src="../../../statics/img/${imgName}.jpg" alt="..." class="htown-home-img" height="200" width="200">
             <input type="file" class="form-control" id="himg" name="himg" width="120px" >
             <input type="submit" value="上传">
         </div>
         <div class="form-group">
-            <label for="hImgName">乡会人数:</label>
             <input type="hidden" class="form-control" id="hImgName" name="hImgName" value="${town.hname}">
         </div>
     </form>

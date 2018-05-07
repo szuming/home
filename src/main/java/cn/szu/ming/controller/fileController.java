@@ -23,7 +23,7 @@ public class fileController {
     @ResponseBody
     public ModelAndView uploadImg(ModelAndView view, HttpServletRequest request,@RequestParam(value = "himg") MultipartFile multipartFile, @RequestParam(value = "hImgName")String hImgName) throws IOException {
         if(multipartFile.getSize()>0){     ///如果上传的文件大小大于0，执行上传
-            String rootPath=request.getServletContext().getRealPath("");        //获得项目的绝对路径
+            String rootPath="E:\\j2ee\\spring\\home\\src\\main\\webapp\\statics\\img\\";        //获得要储存的路径
             String filePath=fileService1.uploadImg(multipartFile,hImgName,rootPath);        //储存文件后返回文件的所在位置的绝对路径
             System.out.println(filePath);
         }
