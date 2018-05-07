@@ -13,7 +13,6 @@ public class htownService extends BaseTest {
     userService userService1;
     @Test
     public void testAddTown(){
-
-        userService1.setUhid(3,2);
+        userService1.setUhidAndType(3,2,1);
     }
 }

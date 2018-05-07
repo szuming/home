@@ -53,6 +53,18 @@
         <input type="button" class="btn btn-default pull-right" value="返回"
                onclick="javascrtpt:window.location.href='home.jsp'">
     </form>
+    <form class="from-inline" action="manTownImg" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="himg">同乡会图片</label>
+            <input type="file" class="form-control" id="himg" name="himg" width="120px" >
+            <input type="submit" value="上传">
+        </div>
+        <div class="form-group">
+            <label for="hImgName">乡会人数:</label>
+            <input type="hidden" class="form-control" id="hImgName" name="hImgName" value="${town.hname}">
+        </div>
+    </form>
+
 </div>
 
 <h1 class="page-header"></h1>

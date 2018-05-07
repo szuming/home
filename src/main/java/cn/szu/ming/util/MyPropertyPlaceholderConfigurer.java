@@ -17,7 +17,6 @@ public class MyPropertyPlaceholderConfigurer extends PropertyPlaceholderConfigur
     protected String convertProperty(String propertyName, String propertyValue) {
         String temp=map.get(propertyName);
         if(temp!=null){
-            System.out.println(temp);
             return temp;
         }
         return super.convertProperty(propertyValue,propertyValue);
