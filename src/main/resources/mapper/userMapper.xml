@@ -25,7 +25,7 @@
   <insert id="insert" parameterType="cn.szu.ming.entity.user">
     insert into user (uid, username, password, 
       userphone, uhid,type)
-    values (#{uid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+    values (#{uid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, password(#{password,jdbcType=VARCHAR}),
       #{userphone,jdbcType=VARCHAR}, #{uhid,jdbcType=INTEGER}, #{type,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="cn.szu.ming.entity.user">
@@ -109,7 +109,7 @@
     <include refid="Base_Column_List" />
     from user
     where username = #{username,jdbcType=VARCHAR}
-    AND password=#{password,jdbcType=VARCHAR}
+    AND password=password(#{password,jdbcType=VARCHAR})
   </select>
 
   <update id="setUhidAndType">
