@@ -7,6 +7,7 @@ import cn.szu.ming.service.fileService;
 import cn.szu.ming.service.htownService;
 import cn.szu.ming.service.jointownService;
 import cn.szu.ming.service.userService;
+import cn.szu.ming.util.Aspect.LogAspect;
 import com.github.pagehelper.PageInfo;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

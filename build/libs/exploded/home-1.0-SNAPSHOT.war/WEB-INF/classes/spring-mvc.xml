@@ -3,15 +3,21 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
                     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
-                    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">    <!--启动注解识别-->
+                    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">    <!--启动注解识别-->
     <context:annotation-config/>
 
     <!--扫描controller-->
     <context:component-scan base-package="cn.szu.ming.controller">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
+    <!--扫描aspect-->
+    <context:component-scan base-package="cn.szu.ming.util.Aspect">
+        <context:include-filter type="aspectj" expression="org.example..*Service+"/>
+    </context:component-scan>
+    <aop:aspectj-autoproxy/>
 
     <!-- 注解驱动，以使得访问路径与方法的匹配可以通过注解配置-->
     <mvc:annotation-driven />
@@ -37,4 +43,6 @@
         <!--内存中的最大值-->
         <property name="maxInMemorySize" value="40960"/>
     </bean>
+
+
 </beans>

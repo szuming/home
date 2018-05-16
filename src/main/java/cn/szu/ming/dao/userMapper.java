@@ -2,8 +2,10 @@ package cn.szu.ming.dao;
 
 import cn.szu.ming.entity.user;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.context.annotation.Bean;
 
 import java.util.List;
+
 
 public interface userMapper {
     int deleteByPrimaryKey(Integer uid);
